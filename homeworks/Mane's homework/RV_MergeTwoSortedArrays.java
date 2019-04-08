@@ -15,8 +15,13 @@ public class RV_MergeTwoSortedArrays {
             }
         }
 
-        while (i < array01.length) array[k++] = array01[i++];
-        while (j < array02.length) array[k++] = array02[j++];
+        while (i < array01.length) {
+              array[k++] = array01[i++];
+        }
+        while (j < array02.length){
+              array[k++] = array02[j++];
+        }
+        
         System.out.println(Arrays.toString(array));
     }
 }
