@@ -8,7 +8,7 @@ public class RV_ReverseArrayRecursion {
     }
 
         public static int[] reverseArray ( int[] array, int i, int j){
-            if (i == j) {
+            if (i == j || j-i == 1) {
                 return array;
             }
 
